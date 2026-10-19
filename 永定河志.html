@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>永定河志 | 源流 · 峡谷 · 桥梁 · 治水 · 非遗 — 永定河数字博物馆</title>
+<meta name="description" content="永定河志：从山西管涔山、内蒙古洋河，到官厅水库、官厅山峡、三家店、卢沟桥，直至天津入海。流域地理、两千年治水史、文化遗产与生态重生的完整叙述。">
+<meta name="theme-color" content="#08262d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='12' fill='%23b03a2e'/%3E%3Ctext x='50' y='74' font-size='64' text-anchor='middle' fill='%23fff6f2' font-family='serif'%3E永%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="系项目/css/全站美化.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="river">
+<div class="loader" id="loader" role="status" aria-live="polite" aria-label="正在加载">
+  <div class="loader__inner">
+    <span class="loader__seal" aria-hidden="true">永</span>
+    <p class="loader__name">永定河数字博物馆</p>
+    <p class="loader__en">Yongding River · Digital Museum</p>
+    <div class="loader__bar"><i></i></div>
+    <p class="loader__num"><b>0</b></p>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="page-hero__bg" aria-hidden="true"></div>
+    <div class="page-hero__pattern" aria-hidden="true"></div>
+    <div class="page-hero__waves" aria-hidden="true">
+      <svg viewBox="0 0 1440 140" preserveAspectRatio="none" style="height:120px;width:100%">
+        <path d="M0 100c120-40 240 20 360 0s240-60 360-30 240 50 360 20 240-40 360-10v60H0z" fill="#0a2b33" opacity=".6"/>
+        <path d="M0 120c140-24 260 18 400 4s280-38 420-14 300 34 440 10 180-16 180-16v36H0z" fill="#082026" opacity=".8"/>
+      </svg>
+    </div>
+
+    <div class="container">
+      <nav class="breadcrumb" aria-label="面包屑导航">
+        <a href="首页.html">Home</a><i>/</i><span aria-current="page">The River</span>
+      </nav>
+      <h1 class="page-hero__title">永定河志
+        <small>A Chronicle of the Yongding River</small>
+      </h1>
+      <p class="page-hero__desc">
+        它有两个源头、一段峡谷、一座出山口、无数座桥，和两千年的堤防。
+        这一页按“地理—时间—工程—人文—生态”的顺序，把一条河讲完。
+      </p>
+      <div class="page-hero__meta">
+        <div><strong>759 公里</strong>干流全长</div>
+        <div><strong>4.7 万 km²</strong>流域面积</div>
+        <div><strong>5 省区市</strong>山西 · 内蒙古 · 河北 · 北京 · 天津</div>
+        <div><strong>14 个刻度</strong>时间轴节点</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="basin" aria-labelledby="basin-title">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="eyebrow">The Source · 源流</p>
+        <h2 class="sec-title" id="basin-title">两条支流，<em>一个名字</em></h2>
+        <p class="sec-desc">
+          永定河的上源分南北两支：北支洋河，源自内蒙古兴和县以北的山麓；南支桑干河，源于山西省宁武县管涔山。
+          两河在河北怀来相汇，自此以下，才叫永定河。
+        </p>
+      </div>
+
+      <div class="grid grid--2" style="margin-bottom:clamp(32px,4vw,56px)">
+        <article class="card-link" data-reveal>
+          <h3 class="card-link__title">南支 · 桑干河</h3>
+          <p class="card-link__desc">发源于山西宁武管涔山，古称桑干水、㶟水。上游穿行黄土高原，坡陡水急，挟带大量泥沙——永定河“小黄河”的绰号由此而来。</p>
+          <div class="tags" style="margin-top:16px"><span>管涔山</span><span>黄土高原</span><span>正源</span></div>
+        </article>
+        <article class="card-link" data-reveal>
+          <h3 class="card-link__title">北支 · 洋河</h3>
+          <p class="card-link__desc">源自内蒙古兴和县以北的山麓，自北向南，在怀来与桑干河相汇。两条河一南一北，水量此消彼长，共同决定了永定河的性格。</p>
+          <div class="tags" style="margin-top:16px"><span>兴和</span><span>塞外</span><span>北支</span></div>
+        </article>
+      </div>
+
+      <div data-river-map data-reveal="fade"></div>
+
+      <div class="split" style="margin-top:clamp(48px,6vw,84px)">
+        <div data-reveal="left">
+          <p class="eyebrow">Three Reaches · 三段</p>
+          <h2 class="sec-title" style="font-size:clamp(24px,2.8vw,36px)">一条河的三重性格</h2>
+          <p class="sec-desc">
+            在北京境内，永定河长约 170 公里，流经门头沟、石景山、丰台、房山、大兴五区。
+            按照地形与治理方式，它通常被分为三段——山峡、城市、郊野，各自有不同的水声。
+          </p>
+        </div>
+        <div class="flist" data-reveal="right">
+          <div class="flist__item">
+            <span class="flist__no">01</span>
+            <div>
+              <h3>官厅山峡段 · 92 公里</h3>
+              <p>从官厅水库到三家店出山口，河水切穿西山，河谷深切、峰峦夹岸。这一段是北京西部的天然屏障，也是京西山水格局的骨架。</p>
+            </div>
+          </div>
+          <div class="flist__item">
+            <span class="flist__no">02</span>
+            <div>
+              <h3>平原城市段 · 37 公里</h3>
+              <p>出三家店后进入城区，门城湖、莲石湖、晓月湖、宛平湖、园博湖次第展开。2010 年代“五湖一线一湿地”工程，让这一段重新有了水面。</p>
+            </div>
+          </div>
+          <div class="flist__item">
+            <span class="flist__no">03</span>
+            <div>
+              <h3>平原郊野段 · 41 公里</h3>
+              <p>继续下游，河道进入郊野，两岸是林带、湿地与农田。永定河在此放缓，最后经永定新河汇入渤海。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="meaning" aria-labelledby="meaning-title">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="eyebrow">Why It Matters · 意义</p>
+        <h2 class="sec-title" id="meaning-title">一条河，<em>为什么重要</em></h2>
+        <p class="sec-desc">一条河的意义，不只在它流过多远，而在它把什么留在了两岸。对北京而言，永定河至少意味着四件事。</p>
+      </div>
+
+      <div class="grid grid--2">
+        <article class="card-link" data-reveal>
+          <span class="exhibit__kicker" style="font-family:var(--latin);font-size:10px;letter-spacing:.22em;color:var(--clay)">01 / GEOGRAPHY</span>
+          <h3 class="card-link__title" style="margin-top:12px">地理：平原的塑造者</h3>
+          <p class="card-link__desc">永定河挟带泥沙，在山前堆积出洪积冲积扇，抬高了北京的地基。河道摆动、决口与改道，也决定了沿岸村落、道路与堤线的位置——今天北京的地形骨架，很大程度上是这条河“写”出来的。</p>
+        </article>
+
+        <article class="card-link" data-reveal>
+          <span class="exhibit__kicker" style="font-family:var(--latin);font-size:10px;letter-spacing:.22em;color:var(--clay)">02 / WATER</span>
+          <h3 class="card-link__title" style="margin-top:12px">水源：一座都城的水脉</h3>
+          <p class="card-link__desc">从曹魏的戾陵堰、车箱渠，到 1957 年的永定河引水渠，再到官厅水库与再生水补给——两千年来，北京的水一直与这条河有关。它既是水源，也是必须被约束的风险。</p>
+        </article>
+
+        <article class="card-link" data-reveal>
+          <span class="exhibit__kicker" style="font-family:var(--latin);font-size:10px;letter-spacing:.22em;color:var(--clay)">03 / MEMORY</span>
+          <h3 class="card-link__title" style="margin-top:12px">记忆：从泥河湾到卢沟桥</h3>
+          <p class="card-link__desc">泥河湾的石片、东胡林的螺壳、卢沟桥的石狮与宛平城墙的弹痕，都留在这条河的两岸。它承载的不只是地理，还有“我们从哪里来”，以及“不能忘记什么”。</p>
+        </article>
+
+        <article class="card-link" data-reveal>
+          <span class="exhibit__kicker" style="font-family:var(--latin);font-size:10px;letter-spacing:.22em;color:var(--clay)">04 / RESILIENCE</span>
+          <h3 class="card-link__title" style="margin-top:12px">当代：修复一条河，也修复一座城</h3>
+          <p class="card-link__desc">断流、采砂、风沙，再到生态补水与 2021 年全线复流。永定河的重生说明：城市可以修复它曾经伤害过的河流；而这条河，也重新成为城市的生态廊道、公共空间与气候缓冲。</p>
+        </article>
+      </div>
+
+      <div class="pullquote" style="margin-top:clamp(44px,5vw,72px)" data-reveal>
+        “没有永定河，就没有北京城。”
+        <cite>—— 这句被反复引用的话，说的其实是：一条河的存在，先于一座城的想象。</cite>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2" id="timeline" aria-labelledby="tl-title">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="eyebrow">Chronicle · 时间轴</p>
+        <h2 class="sec-title" id="tl-title">十四个刻度，<em>八百万年</em></h2>
+        <p class="sec-desc">从旧石器的石片，到 2021 年重新贯通的水流。这条时间轴既可以顺着读，也可以挑一个年份停下。</p>
+      </div>
+
+      <div class="timeline">
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>约 200 万年前</b>旧石器时代早期</div>
+          <div class="tl-body">
+            <h3 class="tl-title">泥河湾盆地 <span>古人类</span></h3>
+            <p class="tl-text">永定河上游的泥河湾盆地，是东亚早期人类活动最重要的证据地之一。从约 190 万年前的马圈沟遗址、136 万年前的小长梁遗址，到数以百计的旧石器地点，古人类在湖畔留下石片与灰烬。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>约 1 万年前</b>新石器时代早期</div>
+          <div class="tl-body">
+            <h3 class="tl-title">东胡林人 <span>北京最早的人</span></h3>
+            <p class="tl-text">门头沟东胡林遗址出土的墓葬与遗物，距今约一万年。随葬的螺壳项链、骨器与陶片，把北京地区的人类活动史向前推了数千年，也透露出最早的审美表达。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>约 5000 年前</b>传说时代</div>
+          <div class="tl-body">
+            <h3 class="tl-title">涿鹿 · 合符釜山 <span>传说</span></h3>
+            <p class="tl-text">相传黄帝与炎帝、蚩尤会战于涿鹿之野，合符釜山，建“黄帝城”。传说未必是史实，但它把华夏族群最初的聚合，安放在了永定河上游的这块台地上。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>战国</b>公元前 3 世纪前后</div>
+          <div class="tl-body">
+            <h3 class="tl-title">卢沟古渡 <span>交通</span></h3>
+            <p class="tl-text">沿太行山东麓北上，渡永定河而达燕蓟。卢沟渡口因此成为南北往来的要津，此后千余年，兵家必争、商旅必经。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>250</b>曹魏 · 嘉平二年</div>
+          <div class="tl-body">
+            <h3 class="tl-title">戾陵堰与车箱渠 <span>水利</span></h3>
+            <p class="tl-text">据《水经注》记载，镇北将军刘靖在梁山（今石景山一带）筑戾陵堰，开车箱渠，引㶟水灌溉蓟城南北。这是北京地区有记载的最早大型引水灌溉工程。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>1153</b>金 · 贞元元年</div>
+          <div class="tl-body">
+            <h3 class="tl-title">金迁都燕京 <span>都城</span></h3>
+            <p class="tl-text">金迁都燕京、改名中都，卢沟渡口成为南方各省进京的门户。渡口之外，一座石桥的需求变得迫切。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>1189—1192</b>金 · 大定至明昌</div>
+          <div class="tl-body">
+            <h3 class="tl-title">卢沟桥建成 <span>建筑</span></h3>
+            <p class="tl-text">金大定二十九年（1189）始建，明昌三年（1192）建成。桥长 266.5 米、十一孔，两侧望柱共 140 根，柱头石狮五百余尊。元代马可·波罗把它写进了游记，西方一度称之为“马可·波罗桥”。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>1698</b>清 · 康熙三十七年</div>
+          <div class="tl-body">
+            <h3 class="tl-title">赐名“永定河” <span>命名</span></h3>
+            <p class="tl-text">康熙命于成龙主持河政，筑堤束水。工程之后，皇帝将“无定河”改名为“永定河”，并在卢沟桥西立碑记事。只是此后七百年间，这条路仍屡屡决口——“永定”始终是一个愿望。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>1937</b>民国二十六年</div>
+          <div class="tl-body">
+            <h3 class="tl-title">七七事变 <span>历史</span></h3>
+            <p class="tl-text">7 月 7 日夜，日军以士兵失踪为借口进攻宛平城，中国守军奋起抵抗。卢沟桥从此不只是桥，而成为民族记忆中的一个坐标。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>1951—1954</b>新中国</div>
+          <div class="tl-body">
+            <h3 class="tl-title">官厅水库建成 <span>水利</span></h3>
+            <p class="tl-text">为根治永定河水患，1951 年 10 月动工，全国四万多名建设者参与，1954 年 5 月竣工。这是新中国成立后兴建的第一座大型水库，总库容 41.6 亿立方米，被誉为“新中国水利事业的摇篮”。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>1970 年代起</b>断流</div>
+          <div class="tl-body">
+            <h3 class="tl-title">河床干涸 <span>生态</span></h3>
+            <p class="tl-text">随着上游水库增多、城市用水激增，永定河卢沟桥段自 1970 年代起逐渐断流。“卢沟晓月”失去了水面，河道一度成为京西最大的风沙源。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>2010—2013</b>绿色生态走廊</div>
+          <div class="tl-body">
+            <h3 class="tl-title">五湖一线一湿地 <span>修复</span></h3>
+            <p class="tl-text">2010 年 2 月，北京启动永定河绿色生态走廊建设工程。门城湖、莲石湖、晓月湖、宛平湖、园博湖与调水管线、园博湿地相继建成，治理河长 18.4 公里，恢复水面 400 公顷。2011 年秋，“卢沟晓月”重现。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>2017</b>综合治理</div>
+          <div class="tl-body">
+            <h3 class="tl-title">跨区域协同治理 <span>制度</span></h3>
+            <p class="tl-text">2016 年底，国家发展改革委、水利部、国家林业局联合印发《永定河综合治理与生态修复总体方案》；2017 年 4 月，治理与修复正式启动，涉及北京、天津、河北、山西四省市，并全面推行河长制。</p>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-year"><b>2021</b>全线通水</div>
+          <div class="tl-body">
+            <h3 class="tl-title">26 年来首次贯通 <span>重生</span></h3>
+            <p class="tl-text">经过持续生态补水与河道整治，2021 年 9 月，永定河实现自 1996 年以来首次全线通水，水流重新抵达入海口。一条断流数十年的河，开始重新流动。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="works" aria-labelledby="works-title">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="eyebrow">Waterworks · 水利</p>
+        <h2 class="sec-title" id="works-title">与水周旋的<em>两千年</em></h2>
+        <p class="sec-desc">
+          永定河含沙量高、河道游荡，卢沟桥一带河床高出北京城二十余米。据记载，1271 年以后的七百余年间，这条河发生大小水灾 124 次，洪水 6 次逼近北京城。
+          于是，治水成了这片土地上最漫长的一项工程。
+        </p>
+      </div>
+
+      <div class="grid grid--2">
+        <article class="exhibit" data-reveal style="--art-a:#e9e2d2;--art-b:#cfc3a8;--art-c:#b8a987">
+          <div class="exhibit__art">
+            <span class="exhibit__no">01</span>
+            <img src="系项目/图/yongding-pano.jpg" alt="永定河河段水面" loading="lazy">
+          </div>
+          <div class="exhibit__body">
+            <p class="exhibit__kicker">曹魏 · 250</p>
+            <h3 class="exhibit__title">戾陵堰 · 车箱渠</h3>
+            <p class="exhibit__desc">筑堰于梁山之北，开车箱渠引水，灌溉蓟城南北农田。这是北京地区最早见于记载的大型引水灌溉工程，也是“用水”这一思路的开端。</p>
+            <div class="exhibit__foot"><span>引水灌溉</span><span>石景山</span></div>
+          </div>
+        </article>
+
+        <article class="exhibit" data-reveal style="--art-a:#dfe6e2;--art-b:#bfd0cb;--art-c:#a3b8b2">
+          <div class="exhibit__art">
+            <span class="exhibit__no">02</span>
+            <img src="系项目/图/lugou-01.jpg" alt="卢沟桥全景" loading="lazy">
+          </div>
+          <div class="exhibit__body">
+            <p class="exhibit__kicker">金 · 1189—1192</p>
+            <h3 class="exhibit__title">卢沟桥</h3>
+            <p class="exhibit__desc">十一孔石桥，桥墩迎水面砌成分水尖，以削弱冰凌与洪水冲击。它既是交通工程，也是一套与水相处的结构智慧。</p>
+            <div class="exhibit__foot"><span>石桥 · 分水尖</span><span>丰台</span></div>
+          </div>
+        </article>
+
+        <article class="exhibit" data-reveal style="--art-a:#ece1d0;--art-b:#d5c1a4;--art-c:#bfa585">
+          <div class="exhibit__art">
+            <span class="exhibit__no">03</span>
+            <img src="系项目/图/guanting-bridges.jpg" alt="官厅水库大坝与跨湖桥航拍" loading="lazy">
+          </div>
+          <div class="exhibit__body">
+            <p class="exhibit__kicker">新中国 · 1954</p>
+            <h3 class="exhibit__title">官厅水库</h3>
+            <p class="exhibit__desc">新中国第一座大型水库。建成后拦蓄 1000 立方米／秒以上的洪水 8 次，为京津冀累计供水数百亿立方米。为了它，怀来古城沉入水底，近三万人告别故土。</p>
+            <div class="exhibit__foot"><span>总库容 41.6 亿 m³</span><span>怀来</span></div>
+          </div>
+        </article>
+
+        <article class="exhibit" data-reveal style="--art-a:#e6ddcd;--art-b:#cbbca0;--art-c:#b3a184">
+          <div class="exhibit__art">
+            <span class="exhibit__no">04</span>
+            <img src="系项目/图/canal.jpg" alt="永定河引水渠与两岸绿道" loading="lazy">
+          </div>
+          <div class="exhibit__body">
+            <p class="exhibit__kicker">1957 · 渠首三家店</p>
+            <h3 class="exhibit__title">永定河引水渠</h3>
+            <p class="exhibit__desc">自三家店引永定河水入城，与后来的京密引水渠共同构成北京城市的供水骨架。河与城的关系，从此从“防洪”转向“供水”。</p>
+            <div class="exhibit__foot"><span>城市供水</span><span>三家店</span></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="pullquote" style="margin-top:clamp(48px,6vw,80px)" data-reveal>
+        “永定”只是一个美好的愿望。此后数百年，永定河仍数次决口，危害两岸百姓。
+        <cite>—— 关于 1698 年那次改名</cite>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--paper2" id="heritage" aria-labelledby="heritage-title">
+    <div class="container">
+      <div class="split split--wide-left">
+        <div data-reveal="left">
+          <p class="eyebrow">Heritage · 文化遗产</p>
+          <h2 class="sec-title" id="heritage-title">河畔的<em>烟火与信仰</em></h2>
+          <p class="sec-desc">
+            永定河流域是农耕与游牧的交汇地带，也是多民族杂处的走廊。庙会、鼓声、幡旗、琉璃与村落，
+            构成了这条河最日常、也最顽强的一面。以门头沟为例，妙峰山庙会、京西太平鼓、千军台庄户幡会，
+            都已成为国家级非物质文化遗产代表性项目。
+          </p>
+          <p class="sec-desc">
+            1925 年，顾颉刚等学者考察妙峰山庙会，写下调查报告——这次田野调查，被看作中国民俗学的起点。
+            一条河的信仰生活，就这样走进了现代学术的视野。
+          </p>
+          <div class="tags" style="margin-top:26px">
+            <span>妙峰山庙会</span><span>京西太平鼓</span><span>千军台庄户幡会</span>
+            <span>琉璃渠烧制技艺</span><span>爨底下村</span><span>灵水举人村</span><span>潭柘寺</span><span>戒台寺</span>
+          </div>
+        </div>
+
+        <figure class="art-frame art-frame--tall" data-reveal="right" style="margin:0">
+          <img src="系项目/图/miaofeng-view.jpg" alt="妙峰山金顶娘娘庙与山脊" loading="lazy">
+          <figcaption class="art-frame__cap">妙峰山 · 金顶娘娘庙 <em>摄影 mayanming / CC BY-SA 3.0</em></figcaption>
+        </figure>
+      </div>
+
+      <div class="grid grid--3" style="margin-top:clamp(44px,5vw,72px)">
+        <article class="card-link" data-reveal>
+          <p class="eyebrow" style="font-size:9.5px">国家级非遗</p>
+          <h3 class="card-link__title" style="margin-top:12px">妙峰山庙会</h3>
+          <p class="card-link__desc">每年农历四月初一至十五，香客沿古香道上山。幡旗、茶棚、施粥与民间花会，构成华北最完整的庙会形态之一。</p>
+        </article>
+        <article class="card-link" data-reveal>
+          <p class="eyebrow" style="font-size:9.5px">国家级非遗</p>
+          <h3 class="card-link__title" style="margin-top:12px">京西太平鼓</h3>
+          <p class="card-link__desc">鼓面蒙纸或皮革，持鼓而舞，边击边转。鼓点与步伐配合，是京西村落岁时节令里最常见的声音。</p>
+        </article>
+        <article class="card-link" data-reveal>
+          <p class="eyebrow" style="font-size:9.5px">国家级非遗</p>
+          <h3 class="card-link__title" style="margin-top:12px">千军台庄户幡会</h3>
+          <p class="card-link__desc">正月十五、十六两日，千军台与庄户两村走会，高幡为前导，鼓乐相随。它是京西山村自发组织的仪式性巡游。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--ink" id="rebirth" aria-labelledby="rebirth-title">
+    <div class="container">
+      <div class="split">
+        <div data-reveal="left">
+          <p class="eyebrow eyebrow--light">Rebirth · 重生</p>
+          <h2 class="sec-title" id="rebirth-title">让一条河，<br>重新流动起来</h2>
+          <p class="sec-desc">
+            断流的河道被采砂挖深、被垃圾填埋，也失去过名字里那点水的意思。
+            2010 年以来的生态走廊建设、再生水补给、跨区域生态补水，让水面一点点回来。
+            2021 年 9 月，永定河实现 26 年来首次全线通水。
+          </p>
+          <p class="sec-desc">
+            重生不是回到从前，而是重新建立人与河的关系：可以散步的岸线、可以观鸟的湿地、
+            可以被讲述的历史。这条河的故事，仍在继续写。
+          </p>
+          <div style="margin-top:32px">
+            <a class="btn btn--light" href="数字展厅.html#hall-6">走进“重生的河”展厅
+              <svg class="btn__arrow" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div data-reveal="right">
+          <div class="stats" style="grid-template-columns:1fr 1fr">
+            <div class="stat">
+              <div class="stat__num"><span data-count="124">124</span><span class="unit">次</span></div>
+              <div class="stat__label">七百余年间水灾</div>
+              <div class="stat__sub">1271 年以后有记载者</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num"><span data-count="400">400</span><span class="unit">公顷</span></div>
+              <div class="stat__label">恢复水面</div>
+              <div class="stat__sub">五湖一线一湿地工程</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num"><span data-count="26">26</span><span class="unit">年</span></div>
+              <div class="stat__label">断流后首次贯通</div>
+              <div class="stat__sub">2021 年 9 月</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num"><span data-count="5">5</span><span class="unit">湖</span></div>
+              <div class="stat__label">门城 · 莲石 · 晓月 · 宛平 · 园博</div>
+              <div class="stat__sub">城市段水面序列</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <figure class="photo-band">
+    <img src="系项目/图/guanting-pano.jpg" alt="官厅水库全景：水面、岸线与远山" loading="lazy">
+    <figcaption class="photo-band__cap">
+      <span>官厅水库 · 新中国第一座大型水库</span>
+      <em>摄影 宋又文 / CC BY 4.0</em>
+    </figcaption>
+  </figure>
+
+  <section class="section section--tight section--paper2">
+    <div class="container">
+      <div class="grid grid--3">
+        <a class="card-link" href="数字展厅.html" data-reveal>
+          <h3 class="card-link__title">数字展厅</h3>
+          <p class="card-link__desc">六个展厅，从“河出西山”走到“重生的河”。</p>
+          <div class="card-link__arrow"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg></div>
+        </a>
+        <a class="card-link" href="馆藏精粹.html" data-reveal>
+          <h3 class="card-link__title">馆藏精粹</h3>
+          <p class="card-link__desc">石狮、碑刻、陶器、鼓面与影像档案。</p>
+          <div class="card-link__arrow"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg></div>
+        </a>
+        <a class="card-link" href="参观指南.html" data-reveal>
+          <h3 class="card-link__title">参观指南</h3>
+          <p class="card-link__desc">线上参观方式，与五条线下寻访路线。</p>
+          <div class="card-link__arrow"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="系项目/Java/布局设计.js"></script>
+</body>
+</html>
+/
